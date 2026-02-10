@@ -6,4 +6,7 @@
   - name: Copy files
     copy: 
       src: /root/myfile.txt
-      dest: /tmp/   
+      dest: /tmp/
+      owner: paul
+      group: paul
+      mode: 0777   
