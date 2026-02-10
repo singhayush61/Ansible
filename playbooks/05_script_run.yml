@@ -1,6 +1,6 @@
 ---
 - name: Run a script
-  hosts: all
+  hosts: a2
 
   tasks:
   - name: Run script
