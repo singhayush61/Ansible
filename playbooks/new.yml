@@ -1,0 +1,8 @@
+---
+- new: file and folder
+  hosts: 2
+
+  tasks:
+  - name: file and folder creation
+    file:
+      src
