@@ -9,4 +9,5 @@
       dest: /tmp/
       owner: paul
       group: paul
-      mode: 0777   
+      mode: 0777
+      backup: true   
