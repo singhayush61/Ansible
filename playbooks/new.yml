@@ -1,8 +1,15 @@
 ---
-- new: file and folder
-  hosts: 2
+- name: file and folder
+  hosts: a2
 
   tasks:
-  - name: file and folder creation
+  - name: creating a folder
     file:
-      src
+      path: /tmp/script
+      state: directory
+
+  - name: creating a file
+    file:
+      name: test.sh
+      mode: 0700
+        
