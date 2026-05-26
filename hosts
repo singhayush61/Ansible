@@ -21,7 +21,6 @@
 [a2]
 10.211.55.7
 
-
 # Ex 2: A collection of hosts belonging to the 'webservers' group:
 
 ## [webservers]
@@ -48,7 +47,6 @@
 ## 10.25.1.56
 ## 10.25.1.57
 
-
 # Ex4: Multiple hosts arranged into groups such as 'Debian' and 'openSUSE':
 
 ## [Debian]
@@ -58,4 +56,3 @@
 ## [openSUSE]
 ## green.example.com
 ## blue.example.com
-
