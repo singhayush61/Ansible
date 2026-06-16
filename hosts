@@ -40,12 +40,14 @@
 
 # Ex 3: A collection of database servers in the 'dbservers' group:
 
+
 ## [dbservers]
 ##
 ## db01.intranet.mydomain.net
 ## db02.intranet.mydomain.net
 ## 10.25.1.56
 ## 10.25.1.57
+
 
 # Ex4: Multiple hosts arranged into groups such as 'Debian' and 'openSUSE':
 
